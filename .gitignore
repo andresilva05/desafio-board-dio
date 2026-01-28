@@ -1,0 +1,50 @@
+# Build
+build/
+.gradle/
+out/
+bin/
+
+# Dependências
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+
+*.db
+*.sqlite
+
+# Gradle específico
+gradle-app.setting
+.gradletasknamecache
+
+
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+docker-compose.yml
+liquibase.properties
+*.yml
+*.yaml
